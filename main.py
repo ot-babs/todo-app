@@ -1,5 +1,5 @@
-#from functions import get_todos, write_todos
-#other method
+# from functions import get_todos, write_todos
+# other method
 import functions as fn
 import time
 
@@ -10,8 +10,8 @@ Manage your inflow.
 Systemizing everything that repeats
 """
 print(text)
-#dir(str)  - all the methods we can apply to a string data type
-#import builtins
+# dir(str)  - all the methods we can apply to a string data type
+# import builtins
 # __setitem__ can be used for item indexing, __getiem__ how to gett
 while True:
     # Get user input and strip space chars from it
@@ -27,8 +27,8 @@ while True:
 
             fn.write_todos(todos)
 
-            #file.write('this is to write a text and not a list')
-            #file.read('writes a string')
+            # file.write('this is to write a text and not a list')
+            # file.read('writes a string')
     elif user_action.startswith('show'):
 
             todos = fn.get_todos()
