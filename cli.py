@@ -12,14 +12,14 @@ Systemizing everything that repeats
 print(text)
 # dir(str)  - all the methods we can apply to a string data type
 # import builtins
-# __setitem__ can be used for item indexing, __getiem__ how to gett
+# __setitem__ can be used for item indexing, __gettime__ how to get
 while True:
     # Get user input and strip space chars from it
     user_action = input("Type add, show, edit, complete, or exit: ")
     user_action = user_action.strip()
 
     if user_action.startswith('add'):
-            todo = user_action[4:] #<- list slicing removers the add_
+            todo = user_action[4:] # <- list slicing removers the add_
 
             todos = fn.get_todos()
 
