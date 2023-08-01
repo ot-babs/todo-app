@@ -5,3 +5,5 @@ add a new member
 Make soup.
 make Pizza
 Spend less money
+Add chocolate
+Master Python
